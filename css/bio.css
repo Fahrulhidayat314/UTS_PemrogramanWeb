@@ -1,0 +1,12 @@
+.Home th{
+    height: 100px;
+  }
+  .Home th h1{
+    color: #3F2182;;
+    margin: 30px auto;
+    font-size: 3.0rem;
+  }
+  .Home td{
+    text-align: center;
+    height: 50px;
+  }
