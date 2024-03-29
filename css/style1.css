@@ -143,7 +143,7 @@ div .footer{
 
 @media (max-width: 992px){
   html{
-    font-size: 75%;
+    font-size: 70%;
   }
   .navbar{
     height: 70%;
@@ -151,7 +151,7 @@ div .footer{
 }
 @media (max-width: 768px){
   html{
-    font-size: 65%;
+    font-size: 60%;
   }
   .navbar{
     height: 60%;
@@ -162,7 +162,7 @@ div .footer{
 }
 @media (max-width: 576px){
   html{
-    font-size: 55%;
+    font-size: 50%;
   }
   .navbar{
     height: 50%;

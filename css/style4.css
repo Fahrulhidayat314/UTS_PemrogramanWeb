@@ -134,12 +134,12 @@
   
   @media (max-width: 992px){
     html{
-      font-size: 75%;
+      font-size: 70%;
     }
   }
   @media (max-width: 768px){
     html{
-      font-size: 65%;
+      font-size: 60%;
     }
     .Home .home-content{
       width: 100%;
@@ -147,7 +147,7 @@
   }
   @media (max-width: 576px){
     html{
-      font-size: 55%;
+      font-size: 50%;
     }
     .Home{
       width: 100%;
