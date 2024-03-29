@@ -141,9 +141,21 @@
     html{
       font-size: 65%;
     }
+    .Home .home-content{
+      width: 100%;
+    }
   }
   @media (max-width: 576px){
     html{
       font-size: 55%;
+    }
+    .Home{
+      width: 100%;
+    }
+    .Home img{
+      display: none;
+    }
+    .Home  h1{
+      padding-top: 100px;
     }
   }
