@@ -46,7 +46,7 @@ div .image{
 }
  
 .navbar a{
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: #ededed;
   font-weight: 500;
@@ -58,7 +58,7 @@ div .image{
 .navbar a:hover{
   color: #71b7e6;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.3rem;
   transition: all .3s ease-in-out;
   opacity: 130%;
 }
@@ -95,7 +95,7 @@ div .image{
   padding: auto;
 }
 .home-content .btn-box{
-  width: 153px;
+  width: 150px;
   height: 50px;
   margin-left: 250px;
 }
@@ -168,4 +168,13 @@ div .footer{
   .Home .home-content p{
     width: 80%;
   }
+  .Home .home-content .btn-box{
+    align-items: start;
+    justify-content: start;
+  }
+.btn-box a,
+.navbar .btn-box a{
+  width: 70%;
+  height: 70%;
+}
 }

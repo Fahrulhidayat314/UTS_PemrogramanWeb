@@ -46,7 +46,7 @@ div .image{
 }
  
 .navbar a{
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: #ededed;
   font-weight: 500;
@@ -58,7 +58,7 @@ div .image{
 .navbar a:hover{
   color: #71b7e6;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.3rem;
   transition: all .3s ease-in-out;
   opacity: 130%;
 }
@@ -85,12 +85,7 @@ div .image{
 }
 .Home .home-content p{
   font-size: 1.4rem;
-  font-weight: 700;
   color: #3F2182;
-  font-family: Mate;
-  height: 60px;
-  word-spacing: 3px;
-  margin: 35px 0;
 }
 .Home .tb1{
   border: 3px solid #71b7e6; 
@@ -100,7 +95,7 @@ div .image{
 
 }
 .home-content .btn-box{
-  width: 153px;
+  width: 150px;
   height: 50px;
   margin-left: 250px;
 }
@@ -151,27 +146,15 @@ div .footer{
   html{
     font-size: 70%;
   }
-  .navbar{
-    height: 70%;
-  }
 }
 @media (max-width: 768px){
   html{
     font-size: 60%;
   }
-  .navbar{
-    height: 60%;
-  }
-  .Home{
-    width: 60%;
-  }
 }
 @media (max-width: 576px){
   html{
     font-size: 50%;
-  }
-  .navbar{
-    height: 50%;
   }
   .Home .table-light{
       height: 20px;
@@ -180,4 +163,12 @@ div .footer{
   .Home .table-light img{
     display: none;
   }
+  .Home .home-content p{
+    margin-bottom: 20%;
+  }
+.btn-box a,
+.navbar .btn-box a{
+  width: 70%;
+  height: 70%;
+}
 }
