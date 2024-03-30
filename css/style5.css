@@ -69,6 +69,7 @@ div .image{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Home .home-content{
+  margin: 150px;
   padding: 40px;
   background-color: #ededed;
   align-items: center;
