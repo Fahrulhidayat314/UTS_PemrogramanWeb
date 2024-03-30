@@ -45,7 +45,7 @@
   }
    
   .navbar a{
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #ededed;
     font-weight: 500;
@@ -57,7 +57,7 @@
   .navbar a:hover{
     color: #71b7e6;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.3rem;
     transition: all .3s ease-in-out;
     opacity: 130%;
   }
@@ -90,7 +90,6 @@
   .form-control,
   .form-select,
   .input-group-text{
-    height: 60px;
     font-size: 1.2rem;
   }
   .btn-box a,
@@ -103,7 +102,7 @@
     align-items: center;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
     border-radius: 8px;
-    font-size: 19px;
+    font-size: 1.2rem;
     color: #ffff;
     text-decoration: none;
     font-weight: 600;
@@ -157,5 +156,15 @@
     }
     .Home  h1{
       padding-top: 100px;
+    }
+    .Home .home-content .btn-box{
+      align-items: start;
+      justify-content: start;
+    }
+    .btn-box a,
+    .navbar .btn-box a,
+    .Home a .button{
+      width: 70%;
+      height: 70%;
     }
   }
